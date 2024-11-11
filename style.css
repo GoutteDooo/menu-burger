@@ -98,12 +98,14 @@ li:hover {
     position: fixed;
     z-index: 1;
     top: 0;
-    display: none;
+    left:-200px;
     padding: 100px 0 0 50px;
 }
 
 .sidebar:target {
     display: block;
+    transition: 0.2s;
+    left:0px;
 }
 
 .menu-burger-sidebar {

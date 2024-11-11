@@ -14,7 +14,7 @@ nav {
     justify-content: space-around;
     align-items: center;
     height: 100px;
-    background: darkslategrey;
+    background: #fda085;
     padding: auto 100px;
 }
 
@@ -25,7 +25,7 @@ nav > .logo {
     letter-spacing: 1px;
     font-weight: 700;
     cursor: pointer;
-    background: green;
+    background: #f6d365;
     border-radius: 25px;
     text-align: center;
 }
@@ -40,7 +40,7 @@ nav ul {
     width: 500px;
     justify-content: space-around;
     align-items: center;
-    background: green;
+    background: #f6d365;
     list-style-type: none;
     height: 100%;
 }
@@ -84,5 +84,4 @@ li:hover {
     transition: 0.2s;
     background: rgba(245, 245, 245, 0.308);
     border-radius: 15px;
-    transform: scale(1.1);
 }
